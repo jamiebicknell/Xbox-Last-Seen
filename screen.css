@@ -1,0 +1,86 @@
+body {
+    font:0.75em/1.2em Helvetica, Arial;
+    background:#f0f0ef;
+    padding:20px;
+    color:#777;
+}
+#widget {
+    width:200px;
+    margin:100px auto 0 auto;
+    padding:8px 10px 10px 10px;
+    background:rgba(255,255,255,0.8);
+    border:1px solid #b0b0b0;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    -moz-box-shadow:0px 1px 2px 0px rgba(0,0,0,.1);
+    -webkit-box-shadow:0px 1px 2px 0px rgba(0,0,0,.1);
+    box-shadow:0px 1px 2px 0px rgba(0,0,0,.1);
+}
+#widget .left {
+    float:left;
+    width:40px;
+}
+#widget .right {
+    float:left;
+    width:160px;
+}
+#widget span {
+    display:block;
+    float:right;
+    padding:0 0 0 12px;
+    margin:1px 0 0 0;
+    color:#ccc;
+    font-weight:bold;
+    height:11px;
+    background:url('./gamerscore.gif') no-repeat 0 0;
+    line-height:11px;
+    font-size:11px;
+    overflow:hidden;
+}
+#widget .right span {
+    float:none;
+    margin:7px 0 0 0;
+    padding:0 0 0 14px;
+}
+#widget .right span em {
+    font-weight:normal;
+    font-size:0.9em;
+}
+#widget a {
+    display:block;
+    color:#ff624d;
+    font-weight:bold;
+    margin:0 0 8px 0;
+    padding:0 0 4px 0;
+    text-decoration:none;
+    border-bottom:1px solid #ddd;
+}
+#widget a:hover {
+    color:#777;
+    font-weight:bold;
+    text-decoration:none;
+}
+#widget img {
+    float:left;
+    margin:0 8px 0 0;
+}
+.clear {
+    clear:both;
+}
+.indicator {
+    display:block;
+    height:7px;
+    margin:3px 0 0 0;
+    padding:3px 0 0 14px;
+    background:url('./gamerscore.gif') no-repeat 0 0;
+}
+.indicator div {
+    width:146px;
+    height:4px;
+    background:#DFDFDF;
+}
+.indicator div div {
+    height:4px;
+    background:#63cb8c;
+}
