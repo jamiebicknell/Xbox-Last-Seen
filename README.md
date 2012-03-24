@@ -2,7 +2,7 @@
 
 PHP Based XBOX widget to show when the player was last seen and what they were seen playing.
 
-Data is scraped from [http://gamercard.xbox.com/en-US/rentedsmile.card](http://gamercard.xbox.com/en-US/rentedsmile.card) using parsed via `DOMDocument`
+Data is scraped from [http://gamercard.xbox.com/en-US/rentedsmile.card](http://gamercard.xbox.com/en-US/rentedsmile.card) and parsed via `DOMDocument`
 
 ## Example Output
 
