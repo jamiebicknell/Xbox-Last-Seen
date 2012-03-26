@@ -36,15 +36,15 @@ $perc = $list->getElementsByTagName('span')->item(6)->nodeValue;
 ?>
 
 <div id='widget'>
-    <span><?=$game;?></span>
-    <a href='http://live.xbox.com/en-US/MyXbox/Profile?Gamertag=<?=rawurlencode($user);?>'><?=$user;?></a>
+    <span><?php echo $game;?></span>
+    <a href='http://live.xbox.com/en-US/MyXbox/Profile?Gamertag=<?php echo rawurlencode($user);?>'><?php echo $user;?></a>
     <div class='left'>
-        <img src='<?=$imge;?>' alt='<?=$name;?>' />
+        <img src='<?php echo $imge;?>' alt='<?php echo $name;?>' />
     </div>
     <div class='right'>
-        Last seen <?=$time;?> playing <?=str_replace('â¢','&trade;',$name);?>
-        <span><?=$sco1;?> <em>out of</em> <?=$sco2;?></span>
-        <div class='indicator'><div><div style='width:<?=$perc;?>;'></div></div></div>
+        Last seen <?php echo $time;?> playing <?php echo str_replace('â¢','&trade;',$name);?>
+        <span><?php echo $sco1;?> <em>out of</em> <?php echo $sco2;?></span>
+        <div class='indicator'><div><div style='width:<?php echo $perc;?>;'></div></div></div>
     </div>
     <div class='clear'></div>
 </div>
