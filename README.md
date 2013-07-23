@@ -6,4 +6,4 @@ Data is scraped from [http://gamercard.xbox.com/en-US/rentedsmile.card](http://g
 
 ## Example Output
 
-![Rentedsmile Last Seen Widget](http://tuesdayscoming.com/uploads/1309882319.jpg)
+![Rentedsmile Last Seen Widget](http://www.jamiebicknell.com/uploads/1309882319.jpg)
