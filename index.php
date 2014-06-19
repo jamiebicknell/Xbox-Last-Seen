@@ -28,7 +28,7 @@ $list = $html->getElementById('PlayedGames');
 $imge = $list->getElementsByTagName('img')->item(0)->getAttribute('src');
 $name = $list->getElementsByTagName('span')->item(0)->nodeValue;
 $date = strtotime($list->getElementsByTagName('span')->item(1)->nodeValue);
-$time = (date('dmy',$date)==date('dmy')) ? 'earlier today' : ((date('dmy',$date)==date('dmy',strtotime('yesterday'))) ? 'yesterday' : floor((time()-$date)/86400) . ' days ago');
+$time = (date('dmy', $date) == date('dmy')) ? 'earlier today' : ((date('dmy', $date) == date('dmy', strtotime('yesterday'))) ? 'yesterday' : floor((time() - $date) / 86400) . ' days ago');
 $sco1 = $list->getElementsByTagName('span')->item(2)->nodeValue;
 $sco2 = $list->getElementsByTagName('span')->item(3)->nodeValue;
 $perc = $list->getElementsByTagName('span')->item(6)->nodeValue;
@@ -42,7 +42,7 @@ $perc = $list->getElementsByTagName('span')->item(6)->nodeValue;
         <img src='<?php echo $imge;?>' alt='<?php echo $name;?>' />
     </div>
     <div class='right'>
-        Last seen <?php echo $time;?> playing <?php echo str_replace('â¢','&trade;',$name);?>
+        Last seen <?php echo $time;?> playing <?php echo str_replace('â¢', '&trade;', $name);?>
         <span><?php echo $sco1;?> <em>out of</em> <?php echo $sco2;?></span>
         <div class='indicator'><div><div style='width:<?php echo $perc;?>;'></div></div></div>
     </div>
