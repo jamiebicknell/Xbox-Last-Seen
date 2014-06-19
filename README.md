@@ -1,13 +1,13 @@
-# XBOX Last Seen Widget
+# XBOX Last Seen
 
-PHP Based XBOX widget to show when the player was last seen and what they were seen playing.
+PHP Based Xbox widget to show when the player was last seen and what they were seen playing.
 
 Data is scraped from [http://gamercard.xbox.com/en-US/rentedsmile.card](http://gamercard.xbox.com/en-US/rentedsmile.card) and parsed via `DOMDocument`
 
 ## Example Output
 
-![Rentedsmile Last Seen Widget](http://www.jamiebicknell.com/uploads/1309882319.jpg)
+![Rentedsmile Last Seen](http://www.jamiebicknell.com/uploads/1309882319.jpg)
 
 ##License
 
-XBOX Last Seen Widget is licensed under the [MIT license](http://opensource.org/licenses/MIT), see [LICENSE.md](https://github.com/jamiebicknell/XBOX-Last-Seen-Widget/blob/master/LICENSE.md) for details.
+XBOX Last Seen is licensed under the [MIT license](http://opensource.org/licenses/MIT), see [LICENSE.md](https://github.com/jamiebicknell/XBOX-Last-Seen-Widget/blob/master/LICENSE.md) for details.
