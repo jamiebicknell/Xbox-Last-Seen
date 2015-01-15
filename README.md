@@ -6,7 +6,7 @@ Data is scraped from [http://gamercard.xbox.com/en-US/rentedsmile.card](http://g
 
 ## Example Output
 
-![Rentedsmile Last Seen](http://www.jamiebicknell.com/uploads/1309882319.jpg)
+![Rentedsmile Last Seen](http://jamiebicknell.github.io/Xbox-Last-Seen/1309882319.jpg)
 
 ##License
 
