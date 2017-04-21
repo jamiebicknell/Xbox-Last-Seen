@@ -8,6 +8,6 @@ Data is scraped from [http://gamercard.xbox.com/en-US/rentedsmile.card](http://g
 
 ![Rentedsmile Last Seen](http://jamiebicknell.github.io/Xbox-Last-Seen/1309882319.jpg)
 
-##License
+## License
 
 XBOX Last Seen is licensed under the [MIT license](http://opensource.org/licenses/MIT), see [LICENSE.md](https://github.com/jamiebicknell/XBOX-Last-Seen-Widget/blob/master/LICENSE.md) for details.
